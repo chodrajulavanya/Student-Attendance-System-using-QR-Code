@@ -1,0 +1,71 @@
+.student-dashboard {
+  height: 100vh;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* Header-style section for student details (optional future use) */
+.student-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Student image */
+.student-header img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Student info (name, email, branch) */
+.student-info h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.student-info p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Action buttons like logs & QR */
+.home-btn {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 12px 20px;
+  background-color: #1976d2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #0d47a1;
+}
+
+.scan {
+  background-color: #388e3c;
+}
+
+.scan:hover {
+  background-color: #2e7d32;
+}
+
+/* Logout button styling (optional override) */
+.logout-button {
+  margin-top: 20px;
+}

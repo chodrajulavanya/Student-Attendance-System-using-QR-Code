@@ -1,0 +1,205 @@
+/* Main container for the Attendance History page */
+.attendance-history-container {
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the search input */
+  .attendance-history-input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .attendance-history-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Controls (buttons for sorting and export) */
+  .attendance-history-controls {
+    margin-bottom: 1.5rem;
+  }
+  
+  .attendance-history-controls button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1.2rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .attendance-history-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .attendance-history-controls button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Table Styling */
+  .attendance-history-table {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .attendance-history-table th,
+  .attendance-history-table td {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .attendance-history-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .attendance-history-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .attendance-history-table tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  .attendance-history-table td {
+    color: #333;
+  }
+  
+  /* Table row hover effect */
+  .attendance-history-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* No records found message */
+  .attendance-history-no-records {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #777;
+  }
+  
+  /* Back to home link styling */
+  .back-to-home {
+    margin-top: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .back-to-home:hover {
+    color: #0056b3;
+  }
+  .attendance-history-table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .attendance-history-table td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .attendance-history-table th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .attendance-history-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .attendance-history-controls {
+    margin-bottom: 20px;
+  }
+  
+  .attendance-history-controls button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .attendance-history-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .attendance-history-no-records {
+    color: #999;
+  }
+  /* src/components/AttendanceHistory.css */
+.attendance-history-container {
+  padding: 20px;
+}
+
+.attendance-history-input {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.attendance-history-controls {
+  margin: 10px 0;
+}
+
+.attendance-history-controls button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.table-wrapper {
+  overflow: auto; /* Enables both vertical and horizontal scrolling */
+  max-height: 400px; /* Adjust height based on your needs */
+  margin-top: 20px;
+}
+
+.attendance-history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attendance-history-table th,
+.attendance-history-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.attendance-history-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.back-to-home {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}

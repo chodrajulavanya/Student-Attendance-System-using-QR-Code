@@ -1,0 +1,229 @@
+/* Staff Dashboard Styling */
+.staff-dashboard-container {
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .staff-dashboard-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .staff-dashboard-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .staff-dashboard-list li {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+  }
+  
+  .staff-dashboard-list li span {
+    font-weight: bold;
+  }
+  
+  .staff-dashboard-list button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .staff-dashboard-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  .staff-dashboard-list button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .staff-dashboard-no-pending {
+    font-style: italic;
+    color: #777;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+  }
+  
+  /* View Attendance History Button */
+  .view-attendance-button {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-attendance-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Logout Button */
+  .staff-logout-button {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .staff-logout-button:hover {
+    background-color: #c82333;
+  }
+  /* src/components/StaffDashboard/StaffDashboard.css */
+.staff-dashboard {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .search-bar {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 200px;
+  }
+  
+  .student-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .student-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .student-item.approved {
+    background-color: #d4edda;
+  }
+  
+  .student-item.rejected {
+    background-color: #f8d7da;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.pending {
+    color: orange;
+  }
+  
+  .status.approved {
+    color: green;
+  }
+  
+  .status.rejected {
+    color: red;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .spinner {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  .staff-dashboard {
+    padding: 20px;
+  }
+  
+  .student-list {
+    max-height: 400px; /* Limit the height of the list */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+    margin-top: 20px;
+  }
+  
+  .student-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .student-item.approved {
+    background-color: #e0f7fa;
+  }
+  
+  .student-item.rejected {
+    background-color: #ffcdd2;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .toast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
